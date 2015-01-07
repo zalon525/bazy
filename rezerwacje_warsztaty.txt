@@ -1,0 +1,22 @@
+Tabela Rezerwacje_warsztaty:
+
+Przechowuje rezerwacje na warsztaty.
+
+* id : int - PK (uniq, non-NULL)
+  Klucz główny.
+
+* id_warsztatu : int - FK1, non-NULL
+  ID warsztatu, na który dokonana jest rezerwacja.
+
+* id_rezerwacji_dnia_konferencji : int - FK2, non-NULL
+  ID rezerwacji na dzień konferencji, z którą związana jest rezerwacja na warsztat.
+
+* data_rezerwacji : date - non-NULL
+  Data dokonania rezerwacji.
+
+* ilosc_uczestnikow : int - non-NULL, > 0
+  Ilość wszystkich miejsc zarezerwowanych na warsztat.
+
+* ilosc_studentow : int - non-NULL, >= 0, <= ilosc_uczestnikow
+  Ilość miejsc zarezerwowanych dla studentów.
+
