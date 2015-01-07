@@ -1,4 +1,4 @@
-Tabela Wpłaty:
+Tabela Wplaty:
 
 Przechowuje wpłaty za rezerwacje.
 
@@ -11,6 +11,6 @@ Przechowuje wpłaty za rezerwacje.
 * wartosc : money - non-NULL, > 0
   Wysokość wpłaty.
 
-* id_rezerwacji - FK1, uniq, non-NULL
+* id_rezerwacji : int - FK1, non-NULL
   Klucz główny rezerwacji, na rzecz której dokonywana jest wpłata.
 
