@@ -1,0 +1,25 @@
+Tabela Rezerwacje_dni_konferencji:
+
+Przechowuje rezerwacje na poszczególne dni konferencji.
+
+* id : int - PK (uniq, non-NULL)
+  Klucz główny.
+
+* id_konferencji : int - FK1, non-NULL
+  ID konferencji, na którą dokonana jest rezerwacja.
+
+* data : date - FK1, non-NULL
+  Data dnia, na który dokonana jest rezerwacja.
+
+* id_klienta : int - FK2, non-NULL
+  ID klienta, który dokonał rezerwacji.
+
+* data_rezerwacji : date - non-NULL
+  Data dokonania rezerwacji.
+
+* ilosc_uczestnikow : int - non-NULL, > 0
+  Ilość wszystkich zarezerwowanych miejsc.
+
+* ilosc_studentow : int - non-NULL, > 0, < ilosc_uczestnikow
+  Ilość miejsc zarezerwowanych dla studentów.
+
