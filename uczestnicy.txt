@@ -1,0 +1,19 @@
+Tabela Uczestnicy:
+
+Przechowuje dane osobowe uczestników konferencji i warsztatów.
+
+* id : int - PK (uniq, non-NULL)
+  Klucz główny.
+
+* pesel : char(11) - uniq
+  Nr PESEL uczestnika.
+
+* imie : varchar(50) - non-NULL
+  Imię uczestnika.
+
+* nazwisko : varchar(50) - non-NULL
+  Nazwisko uczestnika.
+
+* telefon : varchar(20)
+  Nr telefonu uczestnika.
+
