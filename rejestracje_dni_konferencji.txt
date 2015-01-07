@@ -2,10 +2,10 @@ Tabela Rejestracje_dni_konferencji:
 
 Przechowuje rejestracje na poszczególne dni konferencji, tj. potwierdzenie danych osobowych uczestnika, dla którego zarezerwowano już miejsce.
 
-* id_uczestnika : int - PK (uniq, non-NULL)
+* id_uczestnika : int - PK (uniq, non-NULL), FK1
   ID uczestnika.
 
-* id_rezerwacji : int - PK (uniq, non-NULL)
+* id_rezerwacji : int - PK (uniq, non-NULL), FK2
   ID rezerwacji, w której zarezerwowano miejsce dla uczestnika.
 
 * nr_legit_studenta : char(10)
