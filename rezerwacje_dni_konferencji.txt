@@ -20,6 +20,6 @@ Przechowuje rezerwacje na poszczególne dni konferencji.
 * ilosc_uczestnikow : int - non-NULL, > 0
   Ilość wszystkich zarezerwowanych miejsc.
 
-* ilosc_studentow : int - non-NULL, > 0, < ilosc_uczestnikow
+* ilosc_studentow : int - non-NULL, >= 0, <= ilosc_uczestnikow
   Ilość miejsc zarezerwowanych dla studentów.
 
