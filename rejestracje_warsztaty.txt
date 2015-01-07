@@ -1,0 +1,13 @@
+Tabela Rejestracje_warsztaty:
+
+Przechowuje rejestracje na warsztaty, tj. potwierdzenie danych osobowych uczestnika, dla którego zarezerwowano miejsce na warsztacie i który potwierdził obecność na konferencji w dniu odbywania się warsztatu.
+
+* id_rejestracji : int - PK (uniq, non-NULL)
+  ID rejestracji na dzień konferencji w dniu odbywania się warsztatu.
+
+* id_rezerwacji : int - PK (uniq, non-NULL)
+  ID rezerwacji warsztatu, w której zarezerwowano miejsce dla uczestnika.
+
+* nr_legit_studenta : char(10)
+  Nr legitymacji studenckiej uczestnika (pole opcjonalne) (! redundancja danych - ta dana jest już w rejestracji na dzień konferencji !).
+
