@@ -1,0 +1,9 @@
+Tabela klienci:
+
+Przechowuje podstawowe dane kontaktowe klientow takie jak telefon emial
+
+* id : int PK (uniq, non-NULL)
+
+* telefon : int (non-NULL)
+
+* email : char(15) (uniq, non-NULL)
