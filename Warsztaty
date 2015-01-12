@@ -1,0 +1,19 @@
+Tabela warsztaty:
+
+Przechowuje szczegolowe informacje dotyczace warsztatow
+
+* id : int PK (uniq, non-NULL)
+
+* nazwa : char(20) (non-NULL)
+
+* id_konferencji : int FK (uniq, non-NULL)
+
+* data : date (non-NULL)
+
+* godzina_rozpoczecia : char(5) (non-5NULL)
+
+* godzina_zakonczenia : char(5)
+
+* ilosc_miejsc : int (non-NULL, >0)
+
+* cena : int (>=0)
