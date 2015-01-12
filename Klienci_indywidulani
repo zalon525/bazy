@@ -1,0 +1,13 @@
+Tabela klineci indywidualni:
+
+Przechowuje dane osobowe klietow indywidualnych
+
+* id : int PK, FK (uniq, non-NULL)
+  Klucz glowny
+
+* pesel : char(11) (non-NULL)
+  Pesel
+
+* imie : char (non-NULL)
+
+* nazwisko: char (non-NULL)
