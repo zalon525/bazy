@@ -1,0 +1,9 @@
+Tabela dni_konferencji
+
+Przechowuje informacje na temat konkretnego dnia konferencji
+
+* id_konferencji : int PK, FK (uniq, non-NULL)
+
+* data : date (non-NULL)
+
+* ilosc_miejsc : int (non-NULL, >0)
