@@ -1,0 +1,13 @@
+Tabela okresy_cenowe:
+
+Przechowuje informacje o cenie konferencji
+
+* id : int PK (uniq, non-NULL)
+
+* cena : int (non-NULL, >0)
+
+* id_konferencji : int FK (uniq, non-NULL)
+
+* data : date (non-NULL)
+
+* data_od : date
