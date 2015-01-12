@@ -1,0 +1,10 @@
+Tabela klienci firmowi:
+
+Przechowuje dane kontakowe firm
+
+* id : int PK, FK (uniq, non-NULL)
+  Klucz glowny
+
+* nip : int (non-NULL)
+
+* nazwa : char (non-NULL)
